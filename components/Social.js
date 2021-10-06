@@ -6,7 +6,12 @@ function Social() {
 
   for (const item of data) {
     list.push(
-      <a href={item.url} className="text-white hover:text-blue-200">
+      <a
+        href={item.url}
+        className="text-white hover:text-blue-200"
+        target="_blank"
+        title={item.title}
+      >
         <Image src={item.image_path} width="30" height="30" />
       </a>
     );
@@ -18,7 +23,9 @@ function Social() {
       <h1 className="text-blue-500 text-3xl text-white text-center">
         Síguenos en redes sociales
       </h1>
-      <div className="flex justify-around mt-8 w-48 mx-auto">{list}</div>
+      <div className="flex justify-around mt-8 w-48 mx-auto md:w-60 lg:w-64">
+        {list}
+      </div>
     </div>
   );
 }
