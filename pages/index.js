@@ -4,6 +4,7 @@ import Image from "next/image";
 import heroImage from "../public/heroImage.png";
 import AboutUs from "../components/Aboutus";
 import Footer from "../components/Footer";
+import Team from "../components/Team";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
           <Image src={heroImage} />
         </div>
         <AboutUs />
+        <Team />
       </main>
 
       <footer>
