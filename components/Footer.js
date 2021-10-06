@@ -1,5 +1,6 @@
 import Image from "next/image";
 import data from "../data/FooterData";
+import Social from "./Social";
 
 function Footer() {
   let listAbout = [];
@@ -21,9 +22,15 @@ function Footer() {
     );
   }
   return (
-    <div className="flex justify-center	 h-48 border-t">
-      <div className="flex flex-col w-54 p-6">{listAbout}</div>
-      <div className="flex flex-col w-54 p-6">{listResources}</div>
+    <div className="h-56 pb-6">
+      <Social />
+      <div className="flex justify-center">
+        <div className="flex flex-col w-54 p-6">{listAbout}</div>
+        <div className="flex flex-col w-54 p-6">{listResources}</div>
+      </div>
+      <div className="flex justify-center text-gray-600 py-6">
+        Creado con amor por GDG Jaén
+      </div>
     </div>
   );
 }

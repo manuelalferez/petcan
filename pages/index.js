@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar";
 import Image from "next/image";
 import heroImage from "../public/heroImage.png";
 import AboutUs from "../components/Aboutus";
-import Social from "../components/Social";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -20,7 +19,6 @@ export default function Home() {
           <Image src={heroImage} />
         </div>
         <AboutUs />
-        <Social />
       </main>
 
       <footer>
