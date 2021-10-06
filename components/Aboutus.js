@@ -7,7 +7,7 @@ import eventPeople from "../public/eventPeople.jpeg";
 
 function Aboutus() {
   return (
-    <div>
+    <div id="aboutus">
       <div>
         <div className="p-4 md:p-6">
           <h1 className="text-blue-500 text-3xl">¿Qué es GDG?</h1>
