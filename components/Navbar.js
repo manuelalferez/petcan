@@ -18,7 +18,7 @@ function Navbar() {
         <a href="#aboutus" className="hover:bg-gray-100 p-3 mr-2 w-25">
           Acerca de
         </a>
-        <a href="#" className="hover:bg-gray-100 p-3 mr-2 w-25">
+        <a href="#team" className="hover:bg-gray-100 p-3 mr-2 w-25">
           Equipo
         </a>
       </div>

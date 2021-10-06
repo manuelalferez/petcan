@@ -15,6 +15,7 @@ function Team() {
               socialItems.push(
                 <a
                   className="p-2 hover:bg-gray-100 rounded-full"
+                  target="_blank"
                   href={organizer.social["github"]}
                 >
                   <img
@@ -28,6 +29,7 @@ function Team() {
               socialItems.push(
                 <a
                   className="p-2 hover:bg-gray-100 rounded-full"
+                  target="_blank"
                   href={organizer.social["website"]}
                 >
                   <img
@@ -41,6 +43,7 @@ function Team() {
               socialItems.push(
                 <a
                   className="p-2 hover:bg-gray-100 rounded-full"
+                  target="_blank"
                   href={organizer.social["linkedin"]}
                 >
                   <img
@@ -54,6 +57,7 @@ function Team() {
               socialItems.push(
                 <a
                   className="p-2 hover:bg-gray-100 rounded-full"
+                  target="_blank"
                   href={organizer.social["twitter"]}
                 >
                   <img
@@ -67,6 +71,7 @@ function Team() {
               socialItems.push(
                 <a
                   className="p-2 hover:bg-gray-100 rounded-full"
+                  target="_blank"
                   href={organizer.social["instagram"]}
                 >
                   <img
@@ -84,7 +89,7 @@ function Team() {
     );
   }
   return (
-    <div className="p-4 md:p-6">
+    <div className="p-4 md:p-6" id="team">
       <h1 className="text-blue-500 text-3xl">Equipo</h1>
       <div className="pt-4 flex flex-wrap">{list}</div>
     </div>
