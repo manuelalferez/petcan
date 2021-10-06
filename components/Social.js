@@ -18,7 +18,7 @@ function Social() {
   }
 
   return (
-    <div className="p-4 border-t">
+    <div className="p-4">
       {" "}
       <h1 className="text-xl mb-2 text-center">Síguenos en redes sociales</h1>
       <div className="flex justify-around mt-8 w-48 mx-auto md:w-60 lg:w-64">
