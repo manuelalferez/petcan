@@ -14,6 +14,7 @@ export default [
     social: {
       github: "https://github.com/aabedraba",
       website: "https://www.aabedraba.com/",
+      twitter: "https://twitter.com/aabedraba",
     },
   },
   {
@@ -23,6 +24,7 @@ export default [
     social: {
       github: "https://github.com/manuelalferez",
       website: "https://www.manuelalferez.com/",
+      twitter: "https://twitter.com/manuelalferez",
     },
   },
   {
@@ -59,6 +61,7 @@ export default [
     social: {
       github: "https://github.com/jesi-rgb",
       website: "https://thinking-thoughts.vercel.app/",
+      twitter: "https://twitter.com/jesi_rgb",
     },
   },
 ];
