@@ -1,10 +1,3 @@
-import Image from "next/image";
-import gdgConnect from "../public/gdgConnect.png";
-import iconConnect from "../public/icon_conecta.svg";
-import iconLearn from "../public/icon_aprende.svg";
-import iconGrow from "../public/icon_crece.svg";
-import eventPeople from "../public/eventPeople.jpeg";
-
 function Aboutus() {
   return (
     <div id="aboutus">
@@ -27,7 +20,11 @@ function Aboutus() {
             charlas tecnológicas, o hackathons.
           </div>
           <div className="flex justify-center">
-            <Image src={gdgConnect} width="450" height="253" />
+            <img
+              src="https://ik.imagekit.io/gdgjaen/images/connect_zl3TNWuwg.png?updatedAt=1633596179893"
+              width="450"
+              height="253"
+            />
           </div>
         </div>
       </div>
@@ -43,7 +40,10 @@ function Aboutus() {
         <div>
           <div className="p-6">
             <div className="flex">
-              <Image src={iconConnect} width={70} />
+              <img
+                src="https://ik.imagekit.io/gdgjaen/images/icon_conecta_Z58-ROI1u.svg?updatedAt=1633596205922"
+                className="w-10 md:w-12 lg:w-14"
+              />
               <div className="pl-4">
                 <h2 className="text-blue-500 text-2xl">Conecta</h2>
                 <p className="text-justify">
@@ -55,7 +55,10 @@ function Aboutus() {
           </div>
           <div className="p-6 pt-0">
             <div className="flex">
-              <Image src={iconLearn} width={195} />
+              <img
+                src="https://ik.imagekit.io/gdgjaen/images/icon_aprende_LgN3iMGyz.svg?updatedAt=1633596205727"
+                className="w-10 md:w-12 lg:w-14"
+              />
               <div className="pl-4">
                 <h2 className="text-blue-500 text-2xl">Aprende</h2>
                 <p className="text-justify">
@@ -68,7 +71,10 @@ function Aboutus() {
           </div>
           <div className="p-6 pt-0">
             <div className="flex">
-              <Image src={iconGrow} width={195} />
+              <img
+                src="https://ik.imagekit.io/gdgjaen/images/icon_crece_Iwuva8-kV.svg?updatedAt=1633596206220"
+                className="w-10 md:w-12 lg:w-14"
+              />
               <div className="pl-4">
                 <h2 className="text-blue-500 text-2xl">Crece</h2>
                 <p className="text-justify">
@@ -103,7 +109,10 @@ function Aboutus() {
             </div>
           </div>
           <div className="hidden md:inline md:p-6">
-            <Image src={eventPeople} width="700" height="394" />
+            <img
+              src="https://ik.imagekit.io/gdgjaen/images/eventPeople_GlU-0ht1D.jpeg?updatedAt=1633596180152"
+              className="w-92"
+            />
           </div>
         </div>
       </div>

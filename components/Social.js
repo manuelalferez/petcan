@@ -1,4 +1,3 @@
-import Image from "next/image";
 import data from "../data/SocialData";
 
 function Social() {
@@ -12,7 +11,7 @@ function Social() {
         target="_blank"
         title={item.title}
       >
-        <Image src={item.image_path} width="30" height="30" />
+        <img src={item.image_path} width="30" height="30" />
       </a>
     );
   }

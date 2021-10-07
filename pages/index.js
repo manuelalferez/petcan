@@ -1,7 +1,5 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
-import Image from "next/image";
-import heroImage from "../public/heroImage.png";
 import AboutUs from "../components/Aboutus";
 import Footer from "../components/Footer";
 import Team from "../components/Team";
@@ -17,7 +15,7 @@ export default function Home() {
       <main>
         <Navbar />
         <div className="w-full">
-          <Image src={heroImage} />
+          <img src="https://ik.imagekit.io/gdgjaen/images/hero_0G13xgQ3u.png?updatedAt=1633596181450" />
         </div>
         <AboutUs />
         <Team />

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import data from "../data/TeamData";
 
 function Team() {
@@ -19,7 +18,7 @@ function Team() {
                   href={organizer.social["github"]}
                 >
                   <img
-                    src="https://cdn-icons-png.flaticon.com/512/733/733609.png"
+                    src="https://ik.imagekit.io/gdgjaen/icons/github_AtbbS2Z3p.svg?updatedAt=1633596138135"
                     className="h-6"
                   />
                 </a>
@@ -33,7 +32,7 @@ function Team() {
                   href={organizer.social["website"]}
                 >
                   <img
-                    src="https://cdn-icons-png.flaticon.com/512/1231/1231223.png"
+                    src="https://ik.imagekit.io/gdgjaen/icons/website_U32SRE1c3.svg?updatedAt=1633596138786"
                     className="h-6"
                   />
                 </a>
@@ -47,7 +46,7 @@ function Team() {
                   href={organizer.social["linkedin"]}
                 >
                   <img
-                    src="https://cdn-icons-png.flaticon.com/512/733/733617.png"
+                    src="https://ik.imagekit.io/gdgjaen/icons/linkedin_e_u8VA8N1.svg?updatedAt=1633596886592"
                     className="h-6"
                   />
                 </a>
@@ -61,7 +60,7 @@ function Team() {
                   href={organizer.social["twitter"]}
                 >
                   <img
-                    src="https://cdn-icons-png.flaticon.com/512/733/733635.png"
+                    src="https://ik.imagekit.io/gdgjaen/icons/twitter_zwAdR2wfA.svg?updatedAt=1633596138541"
                     className="h-6 "
                   />
                 </a>
@@ -75,7 +74,7 @@ function Team() {
                   href={organizer.social["instagram"]}
                 >
                   <img
-                    src="https://cdn-icons-png.flaticon.com/512/733/733614.png"
+                    src="https://ik.imagekit.io/gdgjaen/icons/instagram_iKyx6jfP0.svg?updatedAt=1633596138350"
                     className="h-6"
                   />
                 </a>
