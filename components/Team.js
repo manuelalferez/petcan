@@ -16,7 +16,7 @@ function Team() {
                   <a
                     className="p-2 hover:bg-gray-100 rounded-full"
                     target="_blank"
-                    href={organizer.social["github"]}
+                    href={organizer.social[socialItem]}
                   >
                     <img src={data.socialIcons[socialItem]} className="h-6" />
                   </a>

@@ -49,7 +49,8 @@ export default {
     {
       name: "Mara Luque",
       role: "Organizador",
-      picture: "https://cdn-icons-png.flaticon.com/512/747/747376.png",
+      picture:
+        "https://ik.imagekit.io/gdgjaen/team/maraProfile_eggNQNwNJ.jpeg?updatedAt=1633613774705",
       social: {
         twitter: "https://twitter.com/m4r4__",
         instagram: "https://www.instagram.com/maraluquee",
@@ -65,28 +66,28 @@ export default {
         twitter: "https://twitter.com/jesi_rgb",
       },
     },
+    {
+      name: "Alberto Checa",
+      role: "Organizador",
+      picture:
+        "https://ik.imagekit.io/gdgjaen/team/albertoProfile_d6qn4mkuN.jpeg?updatedAt=1633614014027",
+      social: {
+        linkedin:
+          "https://www.linkedin.com/in/alberto-checa-g%C3%B3mez-691101160",
+      },
+    },
   ],
   socialList: ["github", "website", "twitter", "linkedin", "instagram"],
-  socialIcons: [
-    {
-      github:
-        "https://ik.imagekit.io/gdgjaen/icons/github_AtbbS2Z3p.svg?updatedAt=1633596138135",
-    },
-    {
-      website:
-        "https://ik.imagekit.io/gdgjaen/icons/website_U32SRE1c3.svg?updatedAt=1633596138786",
-    },
-    {
-      twitter:
-        "https://ik.imagekit.io/gdgjaen/icons/twitter_zwAdR2wfA.svg?updatedAt=1633596138541",
-    },
-    {
-      linkedin:
-        "https://ik.imagekit.io/gdgjaen/icons/linkedin_e_u8VA8N1.svg?updatedAt=1633596886592",
-    },
-    {
-      instagram:
-        "https://ik.imagekit.io/gdgjaen/icons/github_AtbbS2Z3p.svg?updatedAt=1633596138135",
-    },
-  ],
+  socialIcons: {
+    github:
+      "https://ik.imagekit.io/gdgjaen/icons/github_AtbbS2Z3p.svg?updatedAt=1633596138135",
+    website:
+      "https://ik.imagekit.io/gdgjaen/icons/website_U32SRE1c3.svg?updatedAt=1633596138786",
+    twitter:
+      "https://ik.imagekit.io/gdgjaen/icons/twitter_zwAdR2wfA.svg?updatedAt=1633596138541",
+    linkedin:
+      "https://ik.imagekit.io/gdgjaen/icons/linkedin_e_u8VA8N1.svg?updatedAt=1633596886592",
+    instagram:
+      "https://ik.imagekit.io/gdgjaen/icons/github_AtbbS2Z3p.svg?updatedAt=1633596138135",
+  },
 };
