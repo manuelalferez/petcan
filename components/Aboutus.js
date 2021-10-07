@@ -21,14 +21,14 @@ function Aboutus() {
           <img src={data.whatIsImageURL} className="lg:p-10" />
         </div>
       </div>
-      <div className="bg-gray-100 md:flex md:items-center	md:p-6">
+      <div className="bg-gray-100 md:flex md:items-center	md:p-6 lg:h-screen">
         <iframe
           src="https://www.youtube.com/embed/V6s5kjSoqzw"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-          className="hidden md:inline md:h-60 md:w-96 lg:h-72 lg:w-full"
+          className="hidden md:inline md:h-60 md:w-96 lg:h-4/6 lg:w-full"
         ></iframe>
         <div className="pt-6">
           {(() => {
