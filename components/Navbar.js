@@ -4,7 +4,7 @@ import gdgLogo from "../public/gdgLogo.png";
 
 function Navbar() {
   return (
-    <div className="h-16 shadow-md w-screen flex place-items-center p-2 md:justify-between">
+    <div className="h-16 fixed top-0 z-10 shadow-md bg-white w-screen flex place-items-center p-2 md:justify-between">
       <button className="inline-flex items-center justify-center p-2 rounded-md hover:text-white hover:bg-gray-200 focus:outline-none md:hidden">
         <Image src={menuIcon} alt="Menu" height="25" width="25" />
       </button>
