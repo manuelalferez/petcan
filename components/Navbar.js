@@ -1,4 +1,4 @@
-import data from "../data/navBarData";
+import data from "/data/navbar";
 function Navbar() {
   return (
     <div className="h-16 fixed top-0 z-10 shadow-md bg-white w-screen flex place-items-center p-2 md:justify-between">

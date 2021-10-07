@@ -1,4 +1,4 @@
-import data from "../data/aboutUsData";
+import data from "/data/aboutus";
 function Aboutus() {
   return (
     <div id="aboutus">

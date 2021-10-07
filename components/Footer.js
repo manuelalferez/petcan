@@ -1,4 +1,4 @@
-import data from "../data/footerData";
+import data from "/data/footer";
 import Social from "./Social";
 
 function Footer() {
