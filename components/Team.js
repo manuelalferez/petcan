@@ -1,4 +1,4 @@
-import data from "../data/TeamData";
+import data from "../data/teamData";
 
 function Team() {
   let list = [];

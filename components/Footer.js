@@ -1,5 +1,4 @@
-import Image from "next/image";
-import data from "../data/FooterData";
+import data from "../data/footerData";
 import Social from "./Social";
 
 function Footer() {

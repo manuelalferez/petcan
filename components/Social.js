@@ -1,4 +1,4 @@
-import data from "../data/SocialData";
+import data from "../data/socialData";
 
 function Social() {
   const list = [];
