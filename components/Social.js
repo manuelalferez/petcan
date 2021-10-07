@@ -1,5 +1,4 @@
-import Image from "next/image";
-import data from "../data/SocialData";
+import data from "../data/socialData";
 
 function Social() {
   const list = [];
@@ -8,11 +7,11 @@ function Social() {
     list.push(
       <a
         href={item.url}
-        className="hover:text-blue-200"
+        className="p-2 hover:bg-gray-100 rounded-full"
         target="_blank"
         title={item.title}
       >
-        <Image src={item.image_path} width="30" height="30" />
+        <img src={item.image_path} width="30" height="30" />
       </a>
     );
   }

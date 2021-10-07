@@ -1,10 +1,9 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
-import Image from "next/image";
-import heroImage from "../public/heroImage.png";
 import AboutUs from "../components/Aboutus";
 import Footer from "../components/Footer";
 import Team from "../components/Team";
+import Hero from "../components/Hero";
 
 export default function Home() {
   return (
@@ -16,9 +15,7 @@ export default function Home() {
 
       <main>
         <Navbar />
-        <div className="w-full">
-          <Image src={heroImage} />
-        </div>
+        <Hero />
         <AboutUs />
         <Team />
       </main>
