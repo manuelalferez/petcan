@@ -14,8 +14,11 @@ export default function Home() {
 
       <main>
         <Navbar />
-        <div className="w-full">
-          <img src="https://ik.imagekit.io/gdgjaen/images/hero_0G13xgQ3u.png?updatedAt=1633596181450" />
+        <div>
+          <img
+            src="https://ik.imagekit.io/gdgjaen/images/hero_0G13xgQ3u.png?updatedAt=1633596181450"
+            className="lg:h-screen lg:object-cover lg:w-full"
+          />
         </div>
         <AboutUs />
         <Team />

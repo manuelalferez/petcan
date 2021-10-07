@@ -1,31 +1,36 @@
 function Aboutus() {
   return (
     <div id="aboutus">
-      <div>
-        <div className="p-4 md:p-6">
-          <h1 className="text-blue-500 text-3xl">¿Qué es GDG?</h1>
-          <div className="p-2 text-justify">
-            Los Google Developer Groups (GDGs) son entidades sin ánimo de lucro
-            creadas con el objetivo de mejorar la comunidad de entusiastas
-            tecnológicos y aumentar el conocimiento y las relaciones entre las
-            personas que se dedican a esta área.
+      <div className="lg:flex xl:justify-center">
+        <div className="lg:w-2/3 xl:w-1/3">
+          <div className="p-4 md:p-6">
+            <h1 className="text-blue-500 text-3xl md:text-4xl md:pl-4">
+              ¿Qué es GDG?
+            </h1>
+            <div className="p-2 text-justify md:pl-4">
+              Los Google Developer Groups (GDGs) son entidades sin ánimo de
+              lucro creadas con el objetivo de mejorar la comunidad de
+              entusiastas tecnológicos y aumentar el conocimiento y las
+              relaciones entre las personas que se dedican a esta área.
+            </div>
+          </div>
+          <div className="p-4 md:p-6">
+            <h2 className="text-blue-500 text-xl md:text-2xl md:pl-4">
+              ¿Qué hacemos?
+            </h2>
+            <div className="p-2 text-justify md:pl-4">
+              Albergamos una variedad de actividades técnicas para
+              desarrolladores, desde solo unas pocas personas que se reúnen para
+              ver nuestros últimos videos, grandes reuniones con demostraciones
+              y charlas tecnológicas, o hackathons.
+            </div>
           </div>
         </div>
-        <div className="p-4 md:p-6">
-          <h2 className="text-blue-500 text-xl">¿Qué hacemos?</h2>
-          <div className="p-2 text-justify">
-            Albergamos una variedad de actividades técnicas para
-            desarrolladores, desde solo unas pocas personas que se reúnen para
-            ver nuestros últimos videos, grandes reuniones con demostraciones y
-            charlas tecnológicas, o hackathons.
-          </div>
-          <div className="flex justify-center">
-            <img
-              src="https://ik.imagekit.io/gdgjaen/images/connect_zl3TNWuwg.png?updatedAt=1633596179893"
-              width="450"
-              height="253"
-            />
-          </div>
+        <div className="flex justify-center">
+          <img
+            src="https://ik.imagekit.io/gdgjaen/images/connect_zl3TNWuwg.png?updatedAt=1633596179893"
+            className="lg:p-10"
+          />
         </div>
       </div>
       <div className="bg-gray-100 md:flex md:items-center	md:p-6">
@@ -88,7 +93,9 @@ function Aboutus() {
         </div>
       </div>
       <div className="p-4 lg:p-6">
-        <h1 className="text-blue-500 text-3xl mb-4">Una gran comunidad</h1>
+        <h1 className="text-blue-500 text-3xl mb-4  md:text-4xl md:pl-4">
+          Una gran comunidad
+        </h1>
         <div className="md:flex md:justify-center md:items-center">
           <div>
             <div className="bg-green-400 p-4 rounded-xl mx-8">

@@ -89,7 +89,7 @@ function Team() {
   }
   return (
     <div className="p-4 md:p-6" id="team">
-      <h1 className="text-blue-500 text-3xl">Equipo</h1>
+      <h1 className="text-blue-500 text-3xl md:text-4xl md:pl-4">Equipo</h1>
       <div className="pt-4 flex flex-wrap">{list}</div>
     </div>
   );
