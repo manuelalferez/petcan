@@ -7,7 +7,7 @@ function Social() {
     list.push(
       <a
         href={item.url}
-        className="hover:text-blue-200"
+        className="p-2 hover:bg-gray-100 rounded-full"
         target="_blank"
         title={item.title}
       >
