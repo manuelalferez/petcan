@@ -5,12 +5,14 @@ function Navbar() {
         <img
           src="https://ik.imagekit.io/gdgjaen/icons/menu_PidCGb5xV.png?updatedAt=1633596157238"
           alt="Menu"
-          height="25"
-          width="25"
+          className="w-8"
         />
       </button>
       <a className="ml-5 flex place-items-center" href="#">
-        <img src="https://ik.imagekit.io/gdgjaen/images/gdgLogo_OI5enDkX1.png?updatedAt=1633596180362" />
+        <img
+          src="https://ik.imagekit.io/gdgjaen/images/gdgLogo_l137EY957.png?updatedAt=1633600705618"
+          className="w-40 ml-6 md:ml-2 "
+        />
       </a>
       <div className="hidden text-sm md:inline mr-4 text-gray-700">
         <a href="#" className="hover:bg-gray-100 p-3 mr-2 w-30">

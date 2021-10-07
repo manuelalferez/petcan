@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import AboutUs from "../components/Aboutus";
 import Footer from "../components/Footer";
 import Team from "../components/Team";
+import Hero from "../components/Hero";
 
 export default function Home() {
   return (
@@ -14,12 +15,7 @@ export default function Home() {
 
       <main>
         <Navbar />
-        <div>
-          <img
-            src="https://ik.imagekit.io/gdgjaen/images/hero_0G13xgQ3u.png?updatedAt=1633596181450"
-            className="lg:h-screen lg:object-cover lg:w-full"
-          />
-        </div>
+        <Hero />
         <AboutUs />
         <Team />
       </main>
