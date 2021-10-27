@@ -2,8 +2,9 @@ import Head from "next/head";
 import Navbar from "../components/Navbar";
 import AboutUs from "../components/Aboutus";
 import Footer from "../components/Footer";
-import Team from "../components/Team";
 import Hero from "../components/Hero";
+import Pricing from "../components/Pricing";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -20,7 +21,8 @@ export default function Home() {
         <Navbar />
         <Hero />
         <AboutUs />
-        <Team />
+        <Pricing />
+        <Contact />
       </main>
 
       <footer>

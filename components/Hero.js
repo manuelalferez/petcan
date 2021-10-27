@@ -9,7 +9,7 @@ function Hero() {
       <img
         src={data.imageURL}
         alt={data.imageAlt}
-        className="absolute h-screen w-screen  object-center"
+        className="absolute h-screen w-screen object-cover"
       />
     </div>
   );
