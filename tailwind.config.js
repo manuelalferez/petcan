@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero-pattern":
-          "url('https://ik.imagekit.io/gdgjaen/images/hero_0G13xgQ3u.png?updatedAt=1633596181450')",
+          "url('https://ik.imagekit.io/manuelalferez/petcan/hero_SEODQePZeg8.jpg')",
       },
     },
   },

@@ -9,8 +9,11 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>GDG Jaén</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Petcan</title>
+        <link
+          rel="icon"
+          href="https://ik.imagekit.io/manuelalferez/petcan/logo_n2orS9MpsT.jpg?updatedAt=1635333942054"
+        />
       </Head>
 
       <main>
